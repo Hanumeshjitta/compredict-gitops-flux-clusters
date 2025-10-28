@@ -4,18 +4,18 @@ metadata:
   name: nginx
   namespace: nginx
   labels:
-   env: dev  
+   env: stage  
 spec:
   replicas: 2
   selector:
     matchLabels:
       app: nginx
-      env: dev 
+      env: stage 
   template:
     metadata:
       labels:
         app: nginx
-        env: dev 
+        env: stage 
     spec:
       containers:
         - name: nginx
