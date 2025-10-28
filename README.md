@@ -1,1 +1,1 @@
-# compredict-gitops-flux-clusters@@@
+# compredict-gitops-flux-clusters
