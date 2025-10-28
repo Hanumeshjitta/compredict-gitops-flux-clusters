@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
-  namespace: nginx
+  name: nginx-stage
+  namespace: nginx-stage
   labels:
-   env: dev  
+   env: stage  
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: nginx
-      env: dev 
+      app: nginx-stage
+      env: stage 
   template:
     metadata:
       labels:
-        app: nginx
-        env: dev 
+        app: nginx-stage
+        env: stage 
     spec:
       containers:
-        - name: nginx
+        - name: nginx-stage
           image: nginx:latest
           ports:
             - containerPort: 80
