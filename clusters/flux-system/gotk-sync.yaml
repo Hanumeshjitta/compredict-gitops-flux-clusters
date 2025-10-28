@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/Hanumeshjitta/compredict-gitops-flux-clusters.git
+  url: ssh://git@github.com/Hanumeshjitta/compredict-gitops-flux-clusters
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
