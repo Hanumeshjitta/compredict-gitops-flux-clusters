@@ -11,10 +11,10 @@ Before starting, ensure you have the following installed:
 Provisioning a Kubernetes Cluster
 •	You can use either a local cluster a cloud provider AWS EKS
 
-terraform/                    ← Root Terraform folder
-	├─ main.tf                    ← Root module main file
-•	├─ variables.tf               ← Root module variables
-•	├─ terraform.tfvars           ← Root module variable values (GitHub token etc.)
+terraform/                   
+	├─ main.tf                  
+•	├─ variables.tf              
+•	├─ terraform.tfvars          
 •	├─ modules/
 •	│  ├─ vpc/
 •	│  │  ├─ main.tf
