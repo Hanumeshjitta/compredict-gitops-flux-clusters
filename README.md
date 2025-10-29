@@ -27,9 +27,8 @@ terraform/
     |
 	├─ terraform.tfvars   
     |
-	├─ modules/
-       |
-	   ├─ vpc/
+	├─ modules/  /n
+       ├─ vpc/ /n
 	   |  |
 	   │  ├─ main.tf
 	   |  |
